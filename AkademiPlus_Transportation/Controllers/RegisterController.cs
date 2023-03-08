@@ -21,7 +21,7 @@ namespace AkademiPlus_Transportation.Controllers
         {
             db.TblAdmin.Add(p);
             db.SaveChanges();
-            return RedirectToAction("Index","Login");
+            return RedirectToAction("Index","Home");
         }
     }
 }
