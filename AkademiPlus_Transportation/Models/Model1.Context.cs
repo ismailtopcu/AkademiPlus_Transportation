@@ -33,5 +33,7 @@ namespace AkademiPlus_Transportation.Models
         public virtual DbSet<TblTransportation> TblTransportation { get; set; }
         public virtual DbSet<TblAbout> TblAbout { get; set; }
         public virtual DbSet<TblReference> TblReference { get; set; }
+        public virtual DbSet<sysdiagrams> sysdiagrams { get; set; }
+        public virtual DbSet<TblAdmin> TblAdmin { get; set; }
     }
 }

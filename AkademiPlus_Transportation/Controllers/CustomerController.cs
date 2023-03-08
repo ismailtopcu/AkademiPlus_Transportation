@@ -7,6 +7,7 @@ using AkademiPlus_Transportation.Models;
 
 namespace AkademiPlus_Transportation.Controllers
 {
+    [Authorize]
     public class CustomerController : Controller
     {
         DbTransportEntities db = new DbTransportEntities();

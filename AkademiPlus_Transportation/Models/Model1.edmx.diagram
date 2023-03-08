@@ -9,7 +9,7 @@
         <EntityTypeShape EntityType="DbTransportModel.TblCustomer" Width="1.5" PointX="0.75" PointY="5.875" IsExpanded="true" />
         <EntityTypeShape EntityType="DbTransportModel.TblEmployee" Width="1.5" PointX="0.75" PointY="8.875" IsExpanded="true" />
         <EntityTypeShape EntityType="DbTransportModel.TblProcess" Width="1.5" PointX="5.25" PointY="2.125" IsExpanded="true" />
-        <EntityTypeShape EntityType="DbTransportModel.TblProduct" Width="1.5" PointX="0.75" PointY="11.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DbTransportModel.TblProduct" Width="1.5" PointX="4.25" PointY="8.25" IsExpanded="true" />
         <EntityTypeShape EntityType="DbTransportModel.TblTransportation" Width="1.5" PointX="3" PointY="1" IsExpanded="true" />
         <AssociationConnector Association="DbTransportModel.FK_TblTransportation_TblCategory" ManuallyRouted="false" />
         <AssociationConnector Association="DbTransportModel.FK_TblTransportation_TblCustomer" ManuallyRouted="false" />
@@ -18,6 +18,9 @@
         <AssociationConnector Association="DbTransportModel.FK_TblTransportation_TblProduct" ManuallyRouted="false" />
         <EntityTypeShape EntityType="DbTransportModel.TblAbout" Width="1.5" PointX="3.375" PointY="5.75" />
         <EntityTypeShape EntityType="DbTransportModel.TblReference" Width="1.5" PointX="5.375" PointY="4.75" />
+        <EntityTypeShape EntityType="DbTransportModel.sysdiagrams" Width="1.5" PointX="7.375" PointY="0.75" />
+        <EntityTypeShape EntityType="DbTransportModel.TblAdmin" Width="1.5" PointX="7.375" PointY="3.75" />
+        <AssociationConnector Association="DbTransportModel.FK_TblProduct_TblCategory" />
       </Diagram>
     </edmx:Diagrams>
   </edmx:Designer>
