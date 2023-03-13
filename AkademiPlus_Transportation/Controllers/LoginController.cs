@@ -25,7 +25,7 @@ namespace AkademiPlus_Transportation.Controllers
             {
                 FormsAuthentication.SetAuthCookie(values.UserName, false);
                 Session["UserName"] = t.UserName;
-                return RedirectToAction("Index", "Customer");
+                return RedirectToAction("Index","Customer");
             }
             return View();
         }
